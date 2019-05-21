@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.neighbors import KernelDensity
 from keras.models import load_model
 
-from util import (get_data, get_noisy_samples, get_mc_predictions,
+from lid_adversarial_subspace_detection.util import (get_data, get_noisy_samples, get_mc_predictions,
                       get_deep_representations, score_samples, normalize,
                       get_lids_random_batch, get_kmeans_random_batch)
 
