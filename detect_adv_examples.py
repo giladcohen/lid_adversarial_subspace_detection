@@ -6,7 +6,7 @@ import argparse
 import numpy as np
 from sklearn.preprocessing import scale, MinMaxScaler, StandardScaler
 from sklearn.metrics import accuracy_score, precision_score, recall_score
-from util import (random_split, block_split, train_lr, compute_roc)
+from lid_adversarial_subspace_detection.util import (random_split, block_split, train_lr, compute_roc)
 
 DATASETS = ['mnist', 'cifar', 'svhn']
 ATTACKS = ['fgsm', 'bim-a', 'bim-b', 'jsma', 'cw-l2']
